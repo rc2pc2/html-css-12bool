@@ -23,6 +23,7 @@
             </h1>
         </header>
         <main>
+            <!-- ? CONTAINER > ROW > COLUMN -->
             <div class="container">
                 <div class="row">
                     <div class="col-1"> col-1 </div>
@@ -138,6 +139,90 @@
                     <div class="col-offset-1 col-11"></div>
                 </div>
             </div>
+
+            <div class="container-fluid">
+                <h1>
+                    Bonus exercise
+                </h1>
+                <div class="row mt-2">
+                    <div class="col-12">
+                        <h2>
+                            Nested
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="row mt-2">
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-2 nested"></div>
+                            <div class="col-8 nested"></div>
+                            <div class="col-2 nested"></div>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="row">
+                            <div class="col-6 nested"></div>
+                            <div class="col-6 nested"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>
+                    Alignment
+                </h2>
+                <div class="row justify-start">
+                    <div class="col-6">
+                        start
+                    </div>
+                </div>
+                <div class="row justify-center">
+                    <div class="col-6">
+                        center
+                    </div>
+                </div>
+                <div class="row justify-end">
+                    <div class="col-6">
+                        end
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 big"></div>
+                    <div class="col-6 align-self-start">
+                        top
+                    </div>
+                    <div class="col-6 big"></div>
+                    <div class="col-6 align-self-center">
+                        center
+                    </div>
+                    <div class="col-6 big"></div>
+                    <div class="col-6 align-self-end">
+                        bottom
+                    </div>
+                </div>
+
+                <h2 class="mt-2">
+                    Justify content
+                </h2>
+                <div class="row ">
+                    <div class="col-12">
+                        <div class="row justify-around">
+                            <div class="col-2 nested"></div>
+                            <div class="col-2 nested "></div>
+                            <div class="col-2 nested"></div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row justify-between">
+                            <div class="col-2 nested"></div>
+                            <div class="col-2 nested "></div>
+                            <div class="col-2 nested"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
     </body>
 </html>
